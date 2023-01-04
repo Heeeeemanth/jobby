@@ -11,4 +11,63 @@
     height: 45vh;
     width: 25vw;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginpagelogo{
+    margin-bottom: 40px;
+    height: 55px;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+.Passsword-bar{
+    width: 20vw;
+    height: 4vh;
+    background-color: transparent;
+    border:1px solid #b6c5ff;
+}
+.username-bar{
+    width: 20vw;
+    height: 4vh;
+    background-color: transparent;
+    border:1px solid #b6c5ff;
+}
+.loginBtn{
+    background-color: #6366f1;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    width: 13vw;
+    height: 4vh;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.userlabel{
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.passwordlabel{
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+::placeholder{
+    padding: 5px;
 }
